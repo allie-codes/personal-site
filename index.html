@@ -12,10 +12,10 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav class="navbar">
         <h1>💻 allie.codes</h1>
-        <ul>
+        <ul class="navbar-items">
           <!-- <li class="site-name-text">💻 allie.codes</li> -->
           <li class="item"><a href="#about">About</a></li>
           <li class="item"><a href="#projects">Projects</a></li>
@@ -46,18 +46,18 @@
       <section id="projects">
         <h2>Projects</h2>
         <h4>10 Minute Pets</h4>
-        <a href="http://10minutepets.com"
+        <a href="https://10minutepets.com" target="_blank"
           ><img class="project-img" src="assets/10minpetspreview.png"
         /></a>
         <br />
-        <a href="http://10minutepets.com">10minutepets.com</a>
+        <a href="https://10minutepets.com" target="_blank">10minutepets.com</a>
         <p>
           A virtual pet game with a twist - these pets only live for 10 minutes.
         </p>
         <p>Made with React, JavaScript, and HTML/CSS</p>
         <br />
         <h4>Flavor Pokedex</h4>
-        <a href="https://flavor-pokedex.netlify.app"
+        <a href="https://flavor-pokedex.netlify.app" target="_blank"
           >flavor-pokedex.netlify.app</a
         >
         <p>
@@ -67,11 +67,19 @@
       </section>
       <section id="contact">
         <h2>Contact</h2>
-        <p>Get in touch!</p>
-        <a href="assets/Resume.pdf" target="_blank">Resume</a>
+        <h4>Get in touch!</h4>
+
         <p>alexandriasklenar@gmail.com</p>
-        <button>LinkedIn</button> <button>Github</button>
+        <p>
+          <a href="https://github.com/allie-codes" target="_blank">Github</a>
+          ∙
+          <a href="assets/Resume.pdf" target="_blank">Resume</a>
+        </p>
+        <!-- <a>LinkedIn</a>  -->
       </section>
     </main>
+    <footer>
+      <a href="#header">Back to Top</a>
+    </footer>
   </body>
 </html>
